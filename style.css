@@ -24,6 +24,11 @@
   color: #ffffff;
 }
 
+body {
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-weight: 200;
+}
 #logo{
   text-align: center;
   font-size: 30;
@@ -78,6 +83,7 @@ img {
 
 
 footer{
+  position:absolute;
   width: 100%;
   background-color: #595959;
   text-align: center;
