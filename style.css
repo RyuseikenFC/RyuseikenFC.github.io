@@ -76,6 +76,16 @@ body {
 #pic{
   text-align: center;
 }
+
+#calendar{
+  margin: auto;
+}
+
+iframe {
+  margin: auto;
+}
+
+
 img {
     width: 50%;
     height: auto;
