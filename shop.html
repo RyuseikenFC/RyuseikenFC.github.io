@@ -17,13 +17,87 @@
  <div id="logo">
    todo shop and shop logic. and spread sheet setup.
  </div>
- <div id="shop1">
-<img src="Apparel 2.jpg" alt="me1">
-<img src="Apparel 3.jpg" alt="me2">
-<img src="Apparel 4.jpg" alt="me3">
-<img src="Apparel 5.jpg" alt="me4">
-<img src="Apparel 6.jpg" alt="me5">
- </div>
+
+ <div class="row" id="shop1">
+  <div class="column">
+    <img class="items" src="Optimized-stacey-mock-04.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img  class="items" src="optimized-stacey-mock-03.jpg" style="width:100%">
+  </div>
+</div>
+
+<div id="outer">
+  <div class="inner" style="color: white">$20.00</div>
+</div>
+<div id="testHere">
+  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="E3B5N7YFMZAZ8">
+<table>
+<tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+	<option value="Small">Small </option>
+	<option value="Medium">Medium </option>
+	<option value="Large">Large </option>
+	<option value="X-Large">X-Large </option>
+	<option value="XX-Large">XX-Large </option>
+</select> </td></tr>
+</table>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+</div>
+<div id="outer">
+  <div class="inner"><button type="submit" class="msgBtn" onClick="" >S</button></div>
+  <div class="inner"><button type="submit" class="msgBtn2" onClick="">M</button></div>
+  <div class="inner"><button type="submit" class="msgBtn2" onClick="">L</button></div>
+  <div class="inner"><button type="submit" class="msgBtn2" onClick="">XL</button></div>
+  <div class="inner"><button type="submit" class="msgBtn2" onClick="">2XL</button></div>
+</div>
+  <div class="row" id="shop2">
+  <div class="column">
+    <img class="items" src="stacey-mock-02.jpg" style="width:100%">
+    <div id="outer">
+      <div class="inner" style="color: white">$30.00</div>
+    </div>
+    <div id="outer">
+      <div class="inner"><button type="submit" class="msgBtn" onClick="" >S</button></div>
+      <div class="inner"><button type="submit" class="msgBtn2" onClick="">M</button></div>
+      <div class="inner"><button type="submit" class="msgBtn2" onClick="">L</button></div>
+      <div class="inner"><button type="submit" class="msgBtn2" onClick="">XL</button></div>
+      <div class="inner"><button type="submit" class="msgBtn2" onClick="">2XL</button></div>
+    </div>
+  </div>
+  <div class="column">
+    <img class="items" src="stacey-mock-05.jpg" style="width:100%">
+    <div id="outer">
+      <div class="inner" style="color: white">$35.00</div>
+    </div>
+    <div id="outer">
+      <div class="inner"><button type="submit" class="msgBtn" onClick="" >S</button></div>
+      <div class="inner"><button type="submit" class="msgBtn2" onClick="">M</button></div>
+      <div class="inner"><button type="submit" class="msgBtn2" onClick="">L</button></div>
+      <div class="inner"><button type="submit" class="msgBtn2" onClick="">XL</button></div>
+      <div class="inner"><button type="submit" class="msgBtn2" onClick="">2XL</button></div>
+    </div>
+  </div>
+</div>
+
+<div class="row" id="shop3">
+<div class="column">
+  <img class="items" src="stacey-mock-07.jpg" style="width:100%">
+  <div id="outer">
+    <div class="inner"><button type="submit" class="msgBtn" onClick="" >$15.00</button></div>
+  </div>
+</div>
+<div class="column">
+  <img class="items" src="stacey-mock-08.jpg" style="width:100%">
+  <div id="outer">
+    <div class="inner"><button type="submit" class="msgBtn" onClick="" >$15.00</button></div>
+  </div>
+</div>
+</div>
  <script>
  //script here
  function add(num){
