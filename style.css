@@ -1,9 +1,8 @@
 #mybar{
   margin: 0;
   padding: 0;
-  font-family: Verdana, serif;
+  font-family: 'Ariel',serif;
   font-size: 20;
-  opacity: 0.5;
 
 }
 
@@ -25,46 +24,6 @@
   color: #ffffff;
 }
 
-.items {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 20%;
-  padding: 30px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-#outer
-{
-    width:100%;
-    text-align: center;
-}
-.inner
-{
-    display: inline-block;
-}
-
-body {
-  font-family: Verdana, serif;
-  font-style: normal;
-  font-weight: 200;
-  background-size: 1000px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: #595959;;
-  opacity 0.5;
-}
 #logo{
   text-align: center;
   font-size: 30;
@@ -112,32 +71,6 @@ body {
 #pic{
   text-align: center;
 }
-
-#calendar{
-  margin: auto;
-}
-
-#shop1{
-  justify-content: center;
-  border-radius: 8px;
-  text-align:center;
-}
-#shop2{
-  justify-content: center;
-  border-radius: 8px;
-  text-align:center;
-}
-#shop3{
-  justify-content: center;
-  border-radius: 8px;
-  text-align:center;
-}
-
-iframe {
-  margin: auto;
-}
-
-
 img {
     width: 50%;
     height: auto;
@@ -145,13 +78,9 @@ img {
 
 
 footer{
-  font-family: Verdana, serif;
-  position:absolute;
   width: 100%;
   background-color: #595959;
   text-align: center;
   color: #ffffff;
   padding: 25px 25px 25px 25px;
-  font-size: 20;
-  opacity: 0.5;
 }
